@@ -81,4 +81,17 @@ export default class Users {
       .patch(`/api/v2/users/${encodeURIComponent(payload.id)}`, {user_metadata: payload.metadata})
       .then((response) => responseHandler(response, {attributes, whitelist: true, rootOnly: true}));
   }
+
+  // /api/v2/jobs/verification-email
+  sendVerificationEmail(parameters = {}) {
+    const payload = apply({
+      parameters: {
+        userId: { required: true },
+        clientId: { required: true }
+      }
+    }, parameters);
+    return this.client
+      .post('api/v2/jobs/verification-email', { user_id: payload.userId, client_id: payload.clientId })
+      .then((response) => responseHandler(response, {attributes, whitelist: true, rootOnly: true}));
+  }
 }

@@ -87,7 +87,7 @@ export default class Users {
     const payload = apply({
       parameters: {
         userId: { required: true },
-        clientId: { required: true }
+        clientId: { required: false }
       }
     }, parameters);
     return this.client

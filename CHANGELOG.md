@@ -1,5 +1,28 @@
 # Change Log
 
+## [v1.1.1](https://github.com/auth0/react-native-auth0/tree/v1.1.1) (2017-08-18)
+[Full Changelog](https://github.com/auth0/react-native-auth0/compare/v1.1.0...v1.1.1)
+
+**Fixed**
+- Call resolve on logout load [\#80](https://github.com/auth0/react-native-auth0/pull/80) ([hzalaz](https://github.com/hzalaz))
+
+## [v1.1.0](https://github.com/auth0/react-native-auth0/tree/v1.1.0) (2017-08-18)
+[Full Changelog](https://github.com/auth0/react-native-auth0/compare/v1.0.4...v1.1.0)
+**Closed issues**
+- Could not invoke A0Auth.showUrl [\#67](https://github.com/auth0/react-native-auth0/issues/67)
+
+**Added**
+- Added clearSession iOS Safari Method [\#65](https://github.com/auth0/react-native-auth0/pull/65) ([cocojoe](https://github.com/cocojoe))
+
+**Fixed**
+- Change customtabs version to the same as default build tools [\#78](https://github.com/auth0/react-native-auth0/pull/78) ([lukecwilliams](https://github.com/lukecwilliams))
+
+## [v1.0.4](https://github.com/auth0/react-native-auth0/tree/v1.0.4) (2017-08-13)
+[Full Changelog](https://github.com/auth0/react-native-auth0/compare/v1.0.3...v1.0.4)
+
+**Changed**
+- Remove override annotation on createJSModules method [\#70](https://github.com/auth0/react-native-auth0/pull/70) ([lukecwilliams](https://github.com/lukecwilliams))
+
 ## [v1.0.3](https://github.com/auth0/react-native-auth0/tree/v1.0.3) (2017-06-26)
 [Full Changelog](https://github.com/auth0/react-native-auth0/compare/v1.0.2...v1.0.3)
 
